@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", async (req, res) => {
   try {
     const response = await axios.get(`https://api.quotable.io/quotes/random?limit=50`);
-    console.log(response);
+    // console.log(response);
     const result = response.data;
     res.render("index.ejs", 
     { 
