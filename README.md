@@ -9,16 +9,22 @@ This website is hosted on render. Check it out:
 First, clone this repository:
 
 <!-- start:code block -->
-# Clone this repository
+## Clone this repository
+```
 git clone https://github.com/asiyakhan048/Quotes-WebApp.git
 cd Quotes WebApp
+```
 
-# Install dependencies
+## Install dependencies
+```
 npm install
+```
 
-# Run the app
+## Run the app
+```
 node index.js
+```
 
-# Open http://localhost:3000 in your browser
-open http://localhost:3000
+## Open http://localhost:3000 in your browser
+```open http://localhost:3000```
 <!-- end:code block -->
